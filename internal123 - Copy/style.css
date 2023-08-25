@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 10vh;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(255, 85, 0);
+    height:10vh;
+    position: sticky; 
+    top: 0;
+    z-index: 2;
+}
+
+nav img {
+    padding-left: 30px;
+    max-height: 8vh;
+    width: 15vw;
+}
+
+
+.nav ul a{
+    margin-left:20px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:aqua;
+    padding-left: 30px;
+    
+}
+
+
+.heading {
+    font-size: 5vh;
+    padding: 15px 10vw;
+    text-align: center;
+}
+
+
+h4, h3, p {
+    text-align: center;
+    padding: 15px 15vw;
+}
+
+
+.bg{
+    background: url("img/mountain_view_1.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}       
+
+
+.bgka{
+    background: url("img/kakapo/cabin_view.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}       
+
+
+.bgke{
+    background: url("img/kereru/cabin_exterior.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}  
+
+
+.bgpu{
+    background: url("img/pukeko/chalet_exterior.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}  
+
+
+.bgcl{
+    background: url("img/maunga_club_cabin.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}  
+
+
+.descka{
+    position: relative;
+    width: 400px; 
+    height: 300px; 
+    background-color: #f0f0f0; 
+    margin: 50px; 
+    padding: 20px; 
+    left: 520px;
+} 
+
+
+.descka h1{
+    font-size: 24px; 
+    text-align: center;
+}
+
+
+.descke{
+    position: relative;
+    width: 400px; 
+    height: 300px; 
+    background-color: #f0f0f0; 
+    margin: 50px; 
+    padding: 20px; 
+    left: 520px;
+}
+
+
+.descke h1{
+    font-size: 24px; 
+    text-align: center;
+}
+
+
+.descpu{
+    position: relative;
+    width: 400px; 
+    height: 300px; 
+    background-color: #f0f0f0; 
+    margin: 50px; 
+    padding: 20px; 
+    left: 520px;
+}
+
+
+.descpu h1{
+    font-size: 24px; 
+    text-align: center;
+}
+
+
+.descin{
+    position: relative;
+    width: 1000px; 
+    height: 360px; 
+    background-color: #f0f0f0; 
+    margin: 50px; 
+    padding: 20px; 
+    left: 200px;
+}
+
+
+.descin h1{
+    font-size: 24px; 
+    text-align: center;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(255, 85, 0);
+    margin-top:auto;
+    margin-bottom: 0h;
+    height: 20vh;   
+    color:green;                                                                
+    opacity: 0.8;
+}
+
+
+.banner li{
+    display: inline-block;
+}
+
+
+.banner a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.button{
+    color:blue; 
+    background-color:rgb(145, 145, 252);                                                      
+    font-size: 19px;
+    margin: 30px 5px;
+    padding: 15px 15px;
+    border: 2px solid rgb(0, 0, 255);
+    min-width: 150px;
+    text-decoration: none;
+}
+
+.gallery-large {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-large a {
+    margin: 10px; 
+}
+
+
+.form{
+    position: relative;
+    width: 1000px; 
+    height: 300px; 
+    background-color: #f0f0f0; 
+    margin: 50px; 
+    padding: 20px; 
+    left: 200px;
+}
+    
+.form h1{
+    font-size: 24px; 
+    text-align: center;
+}
